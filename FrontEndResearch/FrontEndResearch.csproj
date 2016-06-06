@@ -148,6 +148,7 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="scripts\app.ts" />
+    <TypeScriptCompile Include="scripts\Data.ts" />
     <TypeScriptCompile Include="scripts\main.ts" />
   </ItemGroup>
   <ItemGroup>
