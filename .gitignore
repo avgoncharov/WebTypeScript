@@ -4,3 +4,6 @@ obj/
 packages/
 !packages/repositories.config
 /FrontEndResearch/*.user
+node_modules/
+typings/
+AppScripts/
