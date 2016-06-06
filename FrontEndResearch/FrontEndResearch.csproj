@@ -115,6 +115,7 @@
     <Content Include="Index.html" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
+    <Content Include="systemjs.config.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -132,6 +133,7 @@
     <Content Include="scripts\tsconfig.json" />
     <Content Include="typings.json" />
     <Content Include="package.json" />
+    <Content Include="gulpfile.js" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
