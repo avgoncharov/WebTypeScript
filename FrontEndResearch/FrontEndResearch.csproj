@@ -116,7 +116,9 @@
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
     <Content Include="systemjs.config.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
@@ -147,10 +149,14 @@
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="scripts\app.ts" />
+    <TypeScriptCompile Include="scripts\app.component.ts" />
     <TypeScriptCompile Include="scripts\Data.ts" />
-    <TypeScriptCompile Include="scripts\Localization.ts" />
+    <TypeScriptCompile Include="scripts\directive.component.ts" />
+    <TypeScriptCompile Include="scripts\first.component.ts" />
+    <TypeScriptCompile Include="scripts\root-links.component.ts" />
+    <TypeScriptCompile Include="scripts\localization.utils.ts" />
     <TypeScriptCompile Include="scripts\main.ts" />
+    <TypeScriptCompile Include="scripts\second.component.ts" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
