@@ -22,6 +22,9 @@ import { DirectiveComponent } from "./directive.component";
 		<h1>{{lc.test2.text.default}}</h1>
 		<h1>{{lc.test2.text.innerText}}</h1>		
 	</div>
+	<div>
+		<input type='button' value='Click' (click)="check('/#/inin/second')"/>
+	</div>
 	<app-dir></app-dir>`,
 	directives: [ROUTER_DIRECTIVES, DirectiveComponent]
 })
@@ -35,4 +38,12 @@ export class AppComponent {
 	localType = LocaleTypes;
 	currLocal = CurrentLocale;
 	lc = Strings;
+
+	constructor(private router: Router) {
+	}
+
+	check(path: string) {
+		alert(window.location.href.replace(window.location.origin, ""));
+		window.location.assign(path);
+	}
 }
